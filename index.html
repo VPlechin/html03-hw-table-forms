@@ -1,62 +1,52 @@
 <!DOCTYPE html>
-<html lang="en, uk" >
+<html lang="en" lang="uk">
     <head>
         <meta charset="UTF-8">
         <title>Table and Form poll</title>
     </head>
     
     <body bgcolor="#F0FFFF">
-        <nav>
-            <a href="forms.html">Анкета<a>
-        </nav>
+        <a href="forms.html">Анкета</a>
         
-        <header>
-            <h1><center>Home Work #03: Tables, Lists, Forms, Semantic tags</center></h1>
-        </header>
+        <h1><center>Home Work #03: Tables, Lists, Forms</center></h1>
+        <table width=100% height="300" border="1" bordercolor="#FF00FF" bgcolor="#DCDCDC" cellpadding="4" cellspacing="0"> 
+            <caption align="top">табл1.1. Таблиця з об'єднаними комірками</caption>
+                <tr><th>clmn1</th><th>clmn2</th><th>clmn3</th><th>clmn4</th><th>clmn5</th><th>clmn6</th><th>clmn7</th><th>clmn8</th></tr>
+                <tr><td rowspan="2" colspan="2"></td><td rowspan="4" colspan="2"></td><td rowspan="8" colspan="3"></td><td>1</td></tr>
+                <tr><td>2</td></tr>
+                <tr><td rowspan="2" colspan="2"></td><td>3</td></tr>
+                <tr><td>4</td></tr>
+                <tr><td rowspan="4" colspan="4"></td><td>5</td></tr>
+                <tr><td>6</td></tr>
+                <tr><td>7</td></tr>
+                <tr><td>8</td></tr>
+                <tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td></td></tr>
+        </table>
         
-        <article>
-            <section>    
-                <table width=100% height="300" border="1" bordercolor="#FF00FF" bgcolor="#DCDCDC" cellpadding="4" cellspacing="0"> 
-                    <caption align="top">табл1.1. Таблиця з об'єднаними комірками</caption>
-                        <tr><th>clmn1</th><th>clmn2</th><th>clmn3</th><th>clmn4</th><th>clmn5</th><th>clmn6</th><th>clmn7</th><th>clmn8</th></tr>
-                        <tr><td rowspan="2" colspan="2"></td><td rowspan="4" colspan="2"></td><td rowspan="8" colspan="3"></td><td>1</td></tr>
-                        <tr><td>2</td></tr>
-                        <tr><td rowspan="2" colspan="2"></td><td>3</td></tr>
-                        <tr><td>4</td></tr>
-                        <tr><td rowspan="4" colspan="4"></td><td>5</td></tr>
-                        <tr><td>6</td></tr>
-                        <tr><td>7</td></tr>
-                        <tr><td>8</td></tr>
-                        <tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td></td></tr>
-                </table>
-            </section>
-
-            <section>
-                <h2>Будова Сонячної системи</h2>
-                <ol type='I'>
-                    <li>Сонце</li>
-                    <li>Планети земної групи:</li>
-                        <ul type="circle">
-                            <li>Меркурій</li>
-                            <li>Венера</li>
-                            <li>Земля</li>
-                            <li>Марс</li>
-                        </ul>
-                    <li>Пояс Астероїдів</li>
-                    <li>Газові гіганти:</li>
-                        <ul type="square">
-                            <li>Юпітер</li>
-                            <li>Сатурн</li>
-                            <li>Уран</li>
-                            <li>Нептун</li>
-                        </ul>
-                    <li>Пояс Койпера і хмара Оорта</li>
-                    <li>Комети</li>
-                    <li>Карликові планети</li>
-                </ol>
-            </section>
-            
-        <footer bgcolor="#7FFFD4">
+        <h2>Будова Сонячної системи</h2>
+            <ol type='I'>
+                <li>Сонце</li>
+                <li>Планети земної групи:</li>
+                    <ul type="circle">
+                        <li>Меркурій</li>
+                        <li>Венера</li>
+                        <li>Земля</li>
+                        <li>Марс</li>
+                    </ul>
+                <li>Пояс Астероїдів</li>
+                <li>Газові гіганти:</li>
+                    <ul type="square">
+                        <li>Юпітер</li>
+                        <li>Сатурн</li>
+                        <li>Уран</li>
+                        <li>Нептун</li>
+                    </ul>
+                <li>Пояс Койпера і хмара Оорта</li>
+                <li>Комети</li>
+                <li>Карликові планети</li>
+            </ol>
+    
+        <footer>
             <p>&copy 2017, Plechin Vasylyna, Softserve Academy</p>
         </footer>
         

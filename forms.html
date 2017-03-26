@@ -6,15 +6,47 @@
     </head>
     
     <body>
-        
-    <form>
-    <p><input type="checkbox" id="check1"><label for="check1">Lorem</label><Br>
-    <input type="checkbox" id="check2"><label for="check2">Ipsum</label><Br>
-    <input type="checkbox" id="check3"><label for="check3">Dolor</label><Br>
-    <input type="checkbox" id="check4"><label for="check4">Sit amet</label></p>
-    </form>
-  
-    </body>
+        <form action="https://formspree.io/VPlechin@yahoo.com" method="POST">
+            <fieldset>
+                <legend><b>Форма зворотнього зв'язку</b></legend>
+                    <h2>Опитування</h2>
+                        <p>1. Чому Ви записались на даний курс?</p>
+                            <input type="checkbox" name="question1">це моє хоббі<br>
+                            <input type="checkbox" name="question1">хочу змінити вид діяльності<br>
+                            <input type="checkbox" name="question1">для загального розвитку<br>
+                            <input type="checkbox" name="question1"><label>Ваш варіант <input type="text" size="30"></label><br>
+                        <p>2. Чи плануєте продовжувати навчання по закінченні базового курсу і удосконалювати свої навики?</p>
+                            <input type="radio" name="question2">так<br>
+                            <input type="radio" name="question2">ні<br>
+                            <input type="radio" name="question2">можливо<br>
+                        <p>3. Ваші враження від першого тижня навчання?</p>
+                            <input type="checkbox" name="question3">все подобається, все вдається, навчаюся з легкістью<br>
+                            <input type="checkbox" name="question3">значні об'єми матеріалу для вивчення, потрібно виділяти багато часу для домашньої роботи <br>
+                            <input type="checkbox" name="question3">нічого не розумію, нічого не вдається, дуже складно<br>
+                            <input type="checkbox" name="question3"><label>Ваш варіант <input type="text" size="30"></label><br>
+                
+                    <h2>Контактні дані:</h2>
+                    <label>Ім'я<br> 
+                        <input type="text" name="name" size="50" placeholder="ім'я"/></<label><br><br>
+                    <label>Телефон*<br>
+                        <input type="text" name="tel" size="50" placeholder=0xx-xxx-xx-xx required pattern="0[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"></label><br><br>
+                    <label>e-mail<br>
+                        <input type="email" name="email" size="50" placeholder="your@email.address"/></label><br><br>
+                        
+                        <p><b>Оберіть курс:</p></b>
+                        <input type="radio" name="course" checked>HTML/CSS/JS
+                        <input type="radio" name="course">QC/QA
+                        <input type="radio" name="course">UI/UX<br>
+                    
+                        <p><b>Оберіть місто:</b></p>
+                        <input type="radio" name="city" checked>Львів
+                        <input type="radio" name="city">Київ
+                        <input type="radio" name="city">Дніпро<br><br>
+                    
+                    <input type="submit" name="Надіслати">
+                    <input type="reset" name="Скинути">
+            </fieldset>
+        </form>
     
-        
+    </body>
 </html>
